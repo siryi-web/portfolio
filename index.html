@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of a Training Manager & Tech Enthusiast specializing in global training operations, LMS architecture, SCORM e-learning, and systems automation.">
+  <title>Alex Rivera | Training Operations &amp; Systems Automation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Sticky Top Navigation -->
+  <header class="site-header" id="top">
+    <div class="container nav-container">
+      <a href="#top" class="brand-logo" aria-label="Home">
+        <span class="logo-mark">AR</span>
+        <span class="logo-text">Alex Rivera <span class="logo-sub">// L&amp;D Ops &amp; Automation</span></span>
+      </a>
+
+      <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link active">Overview</a></li>
+          <li><a href="#operations" class="nav-link">Operations &amp; Automation</a></li>
+          <li><a href="#skills-grid" class="nav-link">Experience &amp; Skills</a></li>
+          <li><a href="#architecture" class="nav-link">Workflow Blueprint</a></li>
+          <li><a href="#contact" class="nav-link nav-cta">Get in Touch</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="status-pill">
+            <span class="status-dot"></span>
+            <span>Training Manager &amp; Systems Architect</span>
+          </div>
+          <h1 class="hero-title">
+            Scaling Human Potential Through <span class="text-gradient">Training Operations</span> &amp; <span class="text-gradient">Systems Automation</span>.
+          </h1>
+          <p class="hero-lead">
+            I bridge enterprise Learning &amp; Development with modern engineering workflows—architecting automated onboarding pipelines, SCORM-compliant learning ecosystems, and data-driven enablement programs that eliminate manual overhead.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#skills-grid" class="btn btn-primary">Explore Interactive Matrix</a>
+            <a href="#contact" class="btn btn-secondary">Initiate Collaboration</a>
+          </div>
+
+          <div class="hero-metrics" aria-label="Key Impact Metrics">
+            <div class="metric-card">
+              <span class="metric-value" data-target="14500" data-suffix="+">14,500+</span>
+              <span class="metric-label">Learners Enabled Globally</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-value" data-target="78" data-suffix="%">78%</span>
+              <span class="metric-label">Admin Overhead Automated</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-value" data-target="99.4" data-suffix="%">99.4%</span>
+              <span class="metric-label">Compliance SLA Attainment</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Terminal / Systems Telemetry Panel -->
+        <aside class="hero-panel" aria-label="Live Training Operations Telemetry">
+          <div class="terminal-window">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-amber"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <span class="terminal-title">ops-telemetry // lms-automation-engine</span>
+              <span class="scorm-badge" id="lms-status-badge" title="SCORM 1.2 Runtime Status">SCORM: READY</span>
+            </div>
+            <div class="terminal-body">
+              <div class="code-line"><span class="code-prompt">$</span> <span class="code-cmd">ops-cli status --pipeline=enterprise-enablement</span></div>
+              <div class="telemetry-grid">
+                <div class="telemetry-item">
+                  <span class="telemetry-key">HRIS &rarr; LMS Sync</span>
+                  <span class="telemetry-val status-ok">ACTIVE (Webhook v2)</span>
+                </div>
+                <div class="telemetry-item">
+                  <span class="telemetry-key">SCORM 1.2 / xAPI Engine</span>
+                  <span class="telemetry-val status-ok">VALIDATED</span>
+                </div>
+                <div class="telemetry-item">
+                  <span class="telemetry-key">Auto-Provisioning Queue</span>
+                  <span class="telemetry-val">0 Pending / 142ms avg</span>
+                </div>
+                <div class="telemetry-item">
+                  <span class="telemetry-key">Analytics Warehouse</span>
+                  <span class="telemetry-val status-ok">Real-Time KPI Stream</span>
+                </div>
+              </div>
+              <div class="roi-simulator">
+                <div class="roi-header">
+                  <label for="cohort-slider">Automation Impact Estimator (Monthly Cohort Size)</label>
+                  <output id="cohort-output" for="cohort-slider">250 Learners</output>
+                </div>
+                <input type="range" id="cohort-slider" min="50" max="1000" step="50" value="250">
+                <div class="roi-results">
+                  <div>
+                    <span class="roi-caption">Hours Saved / Mo</span>
+                    <strong id="hours-saved-val">112 hrs</strong>
+                  </div>
+                  <div>
+                    <span class="roi-caption">Time-to-Competency</span>
+                    <strong id="ttc-val">-42% faster</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Training Operations & Systems Automation Pillars -->
+    <section id="operations" class="section operations-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Core Pillars</span>
+          <h2>Training Operations &amp; Systems Automation</h2>
+          <p class="section-subtitle">
+            Transforming fragmented training programs into self-healing, measurable operational systems.
+          </p>
+        </div>
+
+        <div class="pillars-grid">
+          <article class="pillar-card">
+            <div class="pillar-icon" aria-hidden="true">01 // OPS</div>
+            <h3>Global Training Operations</h3>
+            <p>
+              End-to-end governance of technical onboarding, role-based certification tracks, and compliance curricula across distributed teams.
+            </p>
+            <ul class="pillar-list">
+              <li>Competency matrices &amp; instructional design frameworks (ADDIE / SAM)</li>
+              <li>Multi-region facilitator enablement &amp; capacity planning</li>
+              <li>Audit-ready compliance tracking &amp; executive KPI dashboards</li>
+            </ul>
+          </article>
+
+          <article class="pillar-card">
+            <div class="pillar-icon" aria-hidden="true">02 // AUTO</div>
+            <h3>Zero-Touch Systems Automation</h3>
+            <p>
+              Replacing manual spreadsheet tracking with event-driven webhooks, API integrations, and automated enrollment pipelines.
+            </p>
+            <ul class="pillar-list">
+              <li>Automated HRIS-to-LMS user lifecycle &amp; cohort provisioning</li>
+              <li>Slack/Teams bot notifications for overdue certifications &amp; nudges</li>
+              <li>Automated SCORM packaging, QA validation, and CI/CD deployment</li>
+            </ul>
+          </article>
+
+          <article class="pillar-card">
+            <div class="pillar-icon" aria-hidden="true">03 // DATA</div>
+            <h3>Learning Analytics &amp; Engineering</h3>
+            <p>
+              Connecting training telemetry directly to operational performance metrics to prove business ROI and optimize learning paths.
+            </p>
+            <ul class="pillar-list">
+              <li>SCORM 1.2 / xAPI telemetry extraction &amp; SQL data modeling</li>
+              <li>Assessment item analysis &amp; knowledge retention tracking</li>
+              <li>AI-assisted content generation &amp; modular HTML5/ES6 courseware</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Experience & Skills Grid -->
+    <section id="skills-grid" class="section skills-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Interactive Matrix</span>
+          <h2>Experience &amp; Technical Capabilities</h2>
+          <p class="section-subtitle">
+            Filter by domain or search keywords. Click any card to inspect real-world implementation outcomes and technical stack details.
+          </p>
+        </div>
+
+        <!-- Controls: Filter Tabs & Search -->
+        <div class="matrix-controls">
+          <div class="filter-tabs" role="tablist" aria-label="Filter experience and skills by category">
+            <button type="button" class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Domains</button>
+            <button type="button" class="filter-btn" data-filter="training-ops" role="tab" aria-selected="false">Training Operations</button>
+            <button type="button" class="filter-btn" data-filter="automation" role="tab" aria-selected="false">Systems Automation</button>
+            <button type="button" class="filter-btn" data-filter="elearning" role="tab" aria-selected="false">E-Learning &amp; SCORM</button>
+            <button type="button" class="filter-btn" data-filter="analytics" role="tab" aria-selected="false">Data &amp; Analytics</button>
+          </div>
+
+          <div class="search-box">
+            <input type="search" id="skill-search" placeholder="Search skills, tools, or outcomes..." aria-label="Search skills and experience">
+          </div>
+        </div>
+
+        <!-- Interactive Grid populated and enhanced by script.js (with static fallback) -->
+        <div id="interactive-grid" class="interactive-grid" aria-live="polite">
+          <!-- Card 1 -->
+          <article class="matrix-card" data-category="training-ops" data-id="exp-1" tabindex="0">
+            <div class="card-top">
+              <span class="card-tag">Training Operations</span>
+              <span class="card-Tenure">2023 &ndash; Present</span>
+            </div>
+            <h3 class="card-title">Enterprise L&amp;D Operations Lead</h3>
+            <p class="card-summary">
+              Directed global technical &amp; compliance training operations for 6,000+ employees across 14 countries with 99.4% SLA adherence.
+            </p>
+            <div class="proficiency-bar" aria-label="Proficiency 96%">
+              <div class="proficiency-fill" style="width: 96%;"></div>
+            </div>
+            <div class="card-tags">
+              <span>LMS Governance</span>
+              <span>Program Strategy</span>
+              <span>Vendor Ops</span>
+            </div>
+            <div class="card-details" hidden>
+              <p><strong>Key Impact:</strong> Consolidated 4 regional training portals into a unified LMS architecture, cutting license costs by $140K/year and reducing onboarding ramp time from 6 weeks to 3.5 weeks.</p>
+            </div>
+            <button type="button" class="card-expand-btn" aria-expanded="false">Inspect Details &rarr;</button>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="matrix-card" data-category="automation" data-id="exp-2" tabindex="0">
+            <div class="card-top">
+              <span class="card-tag">Systems Automation</span>
+              <span class="card-Tenure">Core Architecture</span>
+            </div>
+            <h3 class="card-title">Automated Onboarding &amp; Lifecycle Pipelines</h3>
+            <p class="card-summary">
+              Engineered event-driven workflows syncing Workday HRIS attributes with LMS learning paths, Jira access tickets, and Slack notifications.
+            </p>
+            <div class="proficiency-bar" aria-label="Proficiency 94%">
+              <div class="proficiency-fill" style="width: 94%;"></div>
+            </div>
+            <div class="card-tags">
+              <span>REST APIs</span>
+              <span>Webhooks</span>
+              <span>Node.js / Python</span>
+            </div>
+            <div class="card-details" hidden>
+              <p><strong>Key Impact:</strong> Eliminated 1,200+ hours/year of manual CSV imports and enrollment triage with zero-touch role-based provisioning.</p>
+            </div>
+            <button type="button" class="card-expand-btn" aria-expanded="false">Inspect Details &rarr;</button>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="matrix-card" data-category="elearning" data-id="exp-3" tabindex="0">
+            <div class="card-top">
+              <span class="card-tag">E-Learning &amp; SCORM</span>
+              <span class="card-Tenure">Technical Standard</span>
+            </div>
+            <h3 class="card-title">Custom SCORM 1.2 / xAPI Courseware Engineering</h3>
+            <p class="card-summary">
+              Built lightweight, offline-capable HTML5/CSS3/ES6 learning modules with custom SCORM API wrappers and automated Node.js zip bundlers.
+            </p>
+            <div class="proficiency-bar" aria-label="Proficiency 98%">
+              <div class="proficiency-fill" style="width: 98%;"></div>
+            </div>
+            <div class="card-tags">
+              <span>SCORM 1.2</span>
+              <span>HTML5 / ES6</span>
+              <span>imsmanifest.xml</span>
+            </div>
+            <div class="card-details" hidden>
+              <p><strong>Key Impact:</strong> Replaced heavy proprietary authoring exports with version-controlled code templates, cutting package sizes by 85% and enabling Git-based review workflows.</p>
+            </div>
+            <button type="button" class="card-expand-btn" aria-expanded="false">Inspect Details &rarr;</button>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="matrix-card" data-category="analytics" data-id="exp-4" tabindex="0">
+            <div class="card-top">
+              <span class="card-tag">Data &amp; Analytics</span>
+              <span class="card-Tenure">BI &amp; Telemetry</span>
+            </div>
+            <h3 class="card-title">Learning Impact &amp; Competency Telemetry</h3>
+            <p class="card-summary">
+              Designed automated ETL pipelines correlating training completion and quiz item scores with post-training support ticket resolution speed.
+            </p>
+            <div class="proficiency-bar" aria-label="Proficiency 90%">
+              <div class="proficiency-fill" style="width: 90%;"></div>
+            </div>
+            <div class="card-tags">
+              <span>SQL</span>
+              <span>KPI Dashboards</span>
+              <span>Kirkpatrick L1-L4</span>
+            </div>
+            <div class="card-details" hidden>
+              <p><strong>Key Impact:</strong> Identified high-friction product modules through assessment telemetry, driving a 28% drop in Tier-1 escalations within 60 days.</p>
+            </div>
+            <button type="button" class="card-expand-btn" aria-expanded="false">Inspect Details &rarr;</button>
+          </article>
+
+          <!-- Card 5 -->
+          <article class="matrix-card" data-category="training-ops" data-id="exp-5" tabindex="0">
+            <div class="card-top">
+              <span class="card-tag">Training Operations</span>
+              <span class="card-Tenure">2020 &ndash; 2023</span>
+            </div>
+            <h3 class="card-title">Technical Enablement Program Manager</h3>
+            <p class="card-summary">
+              Scaled technical certification programs for cloud support engineers, solutions architects, and customer success teams.
+            </p>
+            <div class="proficiency-bar" aria-label="Proficiency 92%">
+              <div class="proficiency-fill" style="width: 92%;"></div>
+            </div>
+            <div class="card-tags">
+              <span>Certification Ops</span>
+              <span>SME Workflows</span>
+              <span>Agile L&amp;D</span>
+            </div>
+            <div class="card-details" hidden>
+              <p><strong>Key Impact:</strong> Launched modular micro-credential tracks with hands-on sandbox labs, boosting first-attempt certification pass rates from 71% to 93%.</p>
+            </div>
+            <button type="button" class="card-expand-btn" aria-expanded="false">Inspect Details &rarr;</button>
+          </article>
+
+          <!-- Card 6 -->
+          <article class="matrix-card" data-category="automation" data-id="exp-6" tabindex="0">
+            <div class="card-top">
+              <span class="card-tag">Systems Automation</span>
+              <span class="card-Tenure">AI &amp; Tooling</span>
+            </div>
+            <h3 class="card-title">AI-Assisted Instructional Operations</h3>
+            <p class="card-summary">
+              Implemented structured prompt pipelines and automated QA scripts to convert engineering release notes into interactive assessments.
+            </p>
+            <div class="proficiency-bar" aria-label="Proficiency 91%">
+              <div class="proficiency-fill" style="width: 91%;"></div>
+            </div>
+            <div class="card-tags">
+              <span>LLM Workflows</span>
+              <span>Content Ops</span>
+              <span>Schema Validation</span>
+            </div>
+            <div class="card-details" hidden>
+              <p><strong>Key Impact:</strong> Reduced courseware update turnaround cycles from 3 weeks to 48 hours after major product releases.</p>
+            </div>
+            <button type="button" class="card-expand-btn" aria-expanded="false">Inspect Details &rarr;</button>
+          </article>
+        </div>
+
+        <p id="no-results-msg" class="no-results-msg" hidden>No matching capabilities found. Try clearing your search filter.</p>
+      </div>
+    </section>
+
+    <!-- Systems Architecture / Automation Workflow Section -->
+    <section id="architecture" class="section architecture-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Systems Blueprint</span>
+          <h2>End-to-End Automated Training Pipeline</h2>
+          <p class="section-subtitle">
+            How I connect HR events, authoring repositories, LMS runtimes, and business intelligence into a single cohesive loop.
+          </p>
+        </div>
+
+        <div class="pipeline-steps">
+          <div class="pipeline-step">
+            <span class="step-num">STEP 01</span>
+            <h3>Trigger &amp; Ingest</h3>
+            <p>HRIS role change or Git release tag fires a webhook payload to the automation router.</p>
+          </div>
+          <div class="pipeline-step">
+            <span class="step-num">STEP 02</span>
+            <h3>Package &amp; Provision</h3>
+            <p>Node.js bundler validates <code>imsmanifest.xml</code>, compiles SCORM 1.2 archive, and assigns cohorts via REST API.</p>
+          </div>
+          <div class="pipeline-step">
+            <span class="step-num">STEP 03</span>
+            <h3>Execute &amp; Track</h3>
+            <p>Learners complete responsive modules; runtime telemetry commits scores and completion states in real time.</p>
+          </div>
+          <div class="pipeline-step">
+            <span class="step-num">STEP 04</span>
+            <h3>Analyze &amp; Optimize</h3>
+            <p>Completion telemetry syncs to BI dashboards and triggers automated Slack/email certificates.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <span class="eyebrow">Initiate Connection</span>
+          <h2>Ready to Modernize Your Training Operations?</h2>
+          <p>
+            Whether you need to scale global technical enablement, automate LMS administration, or engineer custom SCORM/HTML5 learning ecosystems, let's connect.
+          </p>
+
+          <div class="contact-channels">
+            <div class="channel-item">
+              <span class="channel-label">Direct Email</span>
+              <a href="mailto:alex.rivera@trainingops.dev" class="channel-value">alex.rivera@trainingops.dev</a>
+            </div>
+            <div class="channel-item">
+              <span class="channel-label">Location &amp; Availability</span>
+              <span class="channel-value">Remote / Global &bull; Open to Leadership &amp; Advisory Roles</span>
+            </div>
+            <div class="channel-item">
+              <span class="channel-label">Core Focus</span>
+              <span class="channel-value">Training Management &bull; L&amp;D Systems Automation &bull; SCORM Engineering</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrapper">
+          <form id="contact-form" class="contact-form" novalidate>
+            <div class="form-group">
+              <label for="sender-name">Full Name <span aria-hidden="true">*</span></label>
+              <input type="text" id="sender-name" name="name" required placeholder="Jordan Taylor">
+            </div>
+
+            <div class="form-group">
+              <label for="sender-email">Work Email <span aria-hidden="true">*</span></label>
+              <input type="email" id="sender-email" name="email" required placeholder="jordan@enterprise.io">
+            </div>
+
+            <div class="form-group">
+              <label for="inquiry-scope">Primary Initiative</label>
+              <select id="inquiry-scope" name="scope">
+                <option value="training-ops">Training Operations &amp; Enablement Leadership</option>
+                <option value="lms-automation">LMS Architecture &amp; Workflow Automation</option>
+                <option value="scorm-engineering">Custom SCORM / Interactive Courseware</option>
+                <option value="consulting">Advisory &amp; Systems Audit</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="sender-message">Project or Role Details <span aria-hidden="true">*</span></label>
+              <textarea id="sender-message" name="message" rows="4" required placeholder="Tell me about your team, current training bottlenecks, or automation goals..."></textarea>
+            </div>
+
+            <div id="form-feedback" class="form-feedback" role="status" hidden></div>
+
+            <button type="submit" class="btn btn-primary btn-full" id="contact-submit-btn">
+              Transmit Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="current-year">2026</span> Alex Rivera. Built with pure HTML5, CSS3 &amp; ES6 JavaScript (SCORM 1.2 Ready).</p>
+      <a href="#top" class="back-to-top">Back to Top &uarr;</a>
+    </div>
+  </footer>
+
+  <script src="logic.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
